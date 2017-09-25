@@ -544,3 +544,14 @@ LogInit: Object subsystem initialized
 [2017.09.25-12.02.46:949][  1]LogAssetRegistry: Asset discovery search completed in 12.2940 seconds
 [2017.09.25-12.02.46:951][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2017.09.25-12.02.46:951][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.09.25-12.44.23:614][593]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2017.09.25-12.46.30:506][676]SourceControl: Source control is disabled
+[2017.09.25-12.46.33:745][ 44]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-12.46.57:251][899]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-12.47.06:308][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2017.09.25-12.47.06:340][926]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/TestingTesting] ([1] browsable assets)...
+[2017.09.25-12.47.06:340][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/TestingTesting]
+[2017.09.25-12.47.06:365][926]LogSavePackage: Save=22.69ms
+[2017.09.25-12.47.06:366][926]LogSavePackage: Moving '../../../../../Proj1/DodgeBall_on_ice/Proj1/Saved/TestingTesting_Auto173A7B0B7456E38FF5698668736441316.tmp' to '../../../../../Proj1/DodgeBall_on_ice/Proj1/Saved/Autosaves/Game/ThirdPersonBP/TestingTesting_Auto1.uasset'
+[2017.09.25-12.47.06:366][926]LogSavePackage: Display: Finished SavePackage ../../../../../Proj1/DodgeBall_on_ice/Proj1/Saved/Autosaves/Game/ThirdPersonBP/TestingTesting_Auto1.uasset
+[2017.09.25-12.47.06:366][926]LogFileHelpers: Auto-saving content packages took 0.057
