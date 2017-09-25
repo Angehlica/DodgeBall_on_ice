@@ -1,13 +1,13 @@
-﻿Log file open, 09/25/17 15:49:16
+﻿Log file open, 09/25/17 15:55:54
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: Proj1
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1865844876) SRandInit(-1865844876).
+LogInit: Display: RandInit(-896082987) SRandInit(-896082987).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.167053
+LogStats: Stats thread started at 0.165165
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,167 +109,181 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.25-13.49.17:305][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.25-13.49.17:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.25-13.49.17:330][  0]LogInit: Computer: FG17AOR022
-[2017.09.25-13.49.17:330][  0]LogInit: User: jimmyhansson
-[2017.09.25-13.49.17:330][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.09.25-13.49.17:330][  0]LogInit: High frequency timer resolution =2.437501 MHz
-[2017.09.25-13.49.17:331][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.09.25-13.49.17:331][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.25-13.49.17:331][  0]LogMemory: Process Physical Memory: 278.10 MB used, 278.10 MB peak
-[2017.09.25-13.49.17:331][  0]LogMemory: Process Virtual Memory: 273.85 MB used, 273.85 MB peak
-[2017.09.25-13.49.17:331][  0]LogMemory: Physical Memory: 6119.77 MB used,  10217.64 MB free, 16337.41 MB total
-[2017.09.25-13.49.17:331][  0]LogMemory: Virtual Memory: 667.91 MB used,  10217.64 MB free, 134217728.00 MB total
-[2017.09.25-13.49.17:471][  0]LogInit: Using OS detected language (en-US).
-[2017.09.25-13.49.17:471][  0]LogInit: Using OS detected locale (en-SE).
-[2017.09.25-13.49.17:473][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.09.25-13.49.18:116][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.25-13.49.18:160][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2017.09.25-13.49.18:161][  0]LogD3D11RHI:       3019/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.25-13.49.18:162][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.25-13.49.18:162][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.25-13.49.18:162][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.25-13.49.18:167][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.25-13.49.18:167][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2017.09.25-13.49.18:167][  0]LogWindows: EnumDisplayDevices:
-[2017.09.25-13.49.18:167][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2017.09.25-13.49.18:167][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.09.25-13.49.18:167][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.09.25-13.49.18:168][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.09.25-13.49.18:168][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.09.25-13.49.18:168][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2017.09.25-13.49.18:168][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
-[2017.09.25-13.49.18:168][  0]LogD3D11RHI:      Driver Date: 6-7-2017
-[2017.09.25-13.49.18:168][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.25-13.49.18:192][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.25-13.49.18:203][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.09.25-13.49.18:253][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Intermediate/Shaders/WorkingDirectory/2348/).
-[2017.09.25-13.49.18:254][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jimmy.hansson/AppData/Local/Temp/UnrealShaderWorkingDir/668678E449CAEA07B839AF8C4E490981/'.
-[2017.09.25-13.49.18:254][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.09.25-13.49.19:127][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.25-13.49.19:173][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.09.25-13.49.19:218][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.25-13.49.19:263][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.09.25-13.49.19:308][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.09.25-13.49.19:353][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.25-13.49.19:398][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.25-13.49.19:443][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.25-13.49.19:482][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.09.25-13.49.19:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.09.25-13.49.19:571][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.25-13.49.19:613][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.25-13.49.19:657][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.25-13.49.19:702][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.25-13.49.19:745][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.25-13.49.19:833][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.25-13.49.19:833][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.25-13.49.19:866][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.09.25-13.49.19:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.09.25-13.49.19:981][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.09.25-13.49.20:027][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.25-13.49.20:072][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.25-13.49.20:116][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.25-13.49.20:161][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.09.25-13.49.20:161][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.09.25-13.49.20:591][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.09.25-13.49.20:694][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.25-13.49.20:695][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.09.25-13.49.20:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.25-13.49.20:695][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.25-13.49.20:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.25-13.49.20:695][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.25-13.49.20:712][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.25-13.49.20:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.25-13.49.20:733][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.25-13.49.20:734][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.25-13.49.20:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.25-13.49.20:734][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.25-13.49.20:987][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2017.09.25-13.49.21:096][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.25-13.49.21:244][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.25-13.49.21:522][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.25-13.49.21:560][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.25-13.49.21:560][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.25-13.49.21:560][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.09.25-13.49.21:560][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.09.25-13.49.21:560][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.09.25-13.49.21:905][  0]LogNetVersion: Proj1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2931502901)
-[2017.09.25-13.49.22:107][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034560 seconds
-[2017.09.25-13.49.22:112][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.09.25-13.49.22:112][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.09.25-13.49.22:112][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.25-13.49.22:170][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.25-13.49.24:526][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.25-13.49.24:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.25-13.49.25:161][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.25-13.49.25:525][  0]SourceControl: Source control is disabled
-[2017.09.25-13.49.25:525][  0]SourceControl: Source control is disabled
-[2017.09.25-13.49.25:566][  0]SourceControl: Source control is disabled
-[2017.09.25-13.49.25:605][  0]SourceControl: Source control is disabled
-[2017.09.25-13.49.26:093][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.25-13.49.26:299][  0]LogOcInput: OculusInput pre-init called
-[2017.09.25-13.49.26:523][  0]LogEngine: Initializing Engine...
-[2017.09.25-13.49.26:525][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.25-13.49.26:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.25-13.49.26:761][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.25-13.49.26:879][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.25-13.49.26:885][  0]LogInit: XAudio2 using 'ASUS VS247-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.09.25-13.49.26:895][  0]LogInit: FAudioDevice initialized.
-[2017.09.25-13.49.26:985][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.09.25-13.49.26:999][  0]LogInit: Texture streaming: Enabled
-[2017.09.25-13.49.27:097][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.25-13.49.27:285][  0]LogInit: Transaction tracking system initialized
-[2017.09.25-13.49.27:549][  0]BlueprintLog: New page: Editor Load
-[2017.09.25-13.49.28:312][  0]LocalizationService: Localization service is disabled
-[2017.09.25-13.49.28:912][  0]LogConsoleResponse: Display: 
-[2017.09.25-13.49.29:094][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.25-13.49.29:094][  0]LogCook: Display: Mobile HDR setting 1
-[2017.09.25-13.49.29:094][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.09.25-13.49.29:434][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/' took 0.01s
-[2017.09.25-13.49.30:009][  0]SourceControl: Source control is disabled
-[2017.09.25-13.49.30:009][  0]Cmd: MAP LOAD FILE="D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.25-13.49.30:010][  0]LightingResults: New page: Lighting Build
-[2017.09.25-13.49.30:046][  0]MapCheck: New page: Map Check
-[2017.09.25-13.49.30:046][  0]LightingResults: New page: Lighting Build
-[2017.09.25-13.49.30:420][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.09.25-13.49.30:428][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.25-13.49.30:451][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.25-13.49.30:498][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.249ms to complete.
-[2017.09.25-13.49.30:498][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.489
-[2017.09.25-13.49.30:548][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.09.25-13.49.30:628][  0]LogCollectionManager: Loaded 0 collections in 0.001527 seconds
-[2017.09.25-13.49.30:702][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Saved/Collections/' took 0.01s
-[2017.09.25-13.49.30:702][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/Developers/jimmyhansson/Collections/' took 0.01s
-[2017.09.25-13.49.30:702][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/Collections/' took 0.01s
-[2017.09.25-13.49.30:702][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.09.25-13.49.30:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
-[2017.09.25-13.49.30:769][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.25-13.49.30:803][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.09.25-13.49.30:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.09.25-13.49.30:916][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.25-13.49.30:920][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.25-13.49.30:924][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.25-13.49.31:030][  0]LogRenderer: Reallocating scene render targets to support 1368x564 Format 10 NumSamples 1 (Frame:1).
-[2017.09.25-13.49.31:215][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.09.25-13.49.31:216][  0]LogLoad: (Engine Initialization) Total time: 15.31 seconds
-[2017.09.25-13.49.31:216][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.09.25-13.49.31:216][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.25-13.49.31:249][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.25-13.49.31:282][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.25-13.49.31:295][  1]LogAssetRegistry: Asset discovery search completed in 10.3303 seconds
-[2017.09.25-13.49.31:297][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.09.25-13.49.31:297][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
-[2017.09.25-13.49.42:451][280]SourceControl: On branch master
-[2017.09.25-13.49.42:451][280]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.09.25-13.49.42:451][280]SourceControl: Changes not staged for commit:
-[2017.09.25-13.49.42:451][280]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.09.25-13.49.42:451][280]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.09.25-13.49.42:451][280]SourceControl: 	modified:   Proj1/Intermediate/CachedAssetRegistry.bin
-[2017.09.25-13.49.42:451][280]SourceControl: 	modified:   Proj1/Saved/Logs/Proj1.log
-[2017.09.25-13.49.42:451][280]SourceControl: Untracked files:
-[2017.09.25-13.49.42:451][280]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.09.25-13.49.42:451][280]SourceControl: 	Proj1/Saved/Config/CrashReportClient/UE4CC-Windows-B32274A842E96CBE740C04989D8B9212/
-[2017.09.25-13.49.42:451][280]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.09.25-13.50.52:433][591]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.09.25-13.50.52:512][591]EditorErrors: Warning: No assets to check in!
+[2017.09.25-13.55.55:110][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.25-13.55.55:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.25-13.55.55:145][  0]LogInit: Computer: FG17AOR022
+[2017.09.25-13.55.55:145][  0]LogInit: User: jimmyhansson
+[2017.09.25-13.55.55:145][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.25-13.55.55:145][  0]LogInit: High frequency timer resolution =2.437501 MHz
+[2017.09.25-13.55.55:146][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.25-13.55.55:146][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.25-13.55.55:146][  0]LogMemory: Process Physical Memory: 278.19 MB used, 278.19 MB peak
+[2017.09.25-13.55.55:146][  0]LogMemory: Process Virtual Memory: 273.91 MB used, 273.91 MB peak
+[2017.09.25-13.55.55:146][  0]LogMemory: Physical Memory: 4488.84 MB used,  11848.57 MB free, 16337.41 MB total
+[2017.09.25-13.55.55:146][  0]LogMemory: Virtual Memory: 667.91 MB used,  11848.57 MB free, 134217728.00 MB total
+[2017.09.25-13.55.55:306][  0]LogInit: Using OS detected language (en-US).
+[2017.09.25-13.55.55:306][  0]LogInit: Using OS detected locale (en-SE).
+[2017.09.25-13.55.55:308][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.25-13.55.55:945][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.25-13.55.55:989][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.09.25-13.55.55:989][  0]LogD3D11RHI:       3019/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.25-13.55.55:990][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.25-13.55.55:990][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.25-13.55.55:990][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.25-13.55.55:995][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.25-13.55.55:995][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.25-13.55.55:995][  0]LogWindows: EnumDisplayDevices:
+[2017.09.25-13.55.55:995][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.09.25-13.55.55:996][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.09.25-13.55.55:996][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.09.25-13.55.55:996][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.09.25-13.55.55:996][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.25-13.55.55:996][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.09.25-13.55.55:996][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.09.25-13.55.55:996][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.09.25-13.55.55:996][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.25-13.55.56:019][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.25-13.55.56:031][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.25-13.55.56:081][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Intermediate/Shaders/WorkingDirectory/9256/).
+[2017.09.25-13.55.56:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jimmy.hansson/AppData/Local/Temp/UnrealShaderWorkingDir/6C543A8048E4B808FA4FCB9F527BFFED/'.
+[2017.09.25-13.55.56:081][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.25-13.55.56:908][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.25-13.55.56:952][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.25-13.55.56:997][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.25-13.55.57:041][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.25-13.55.57:084][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.25-13.55.57:128][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.25-13.55.57:173][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.25-13.55.57:216][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.25-13.55.57:252][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.25-13.55.57:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.25-13.55.57:336][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.25-13.55.57:379][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.25-13.55.57:420][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.25-13.55.57:462][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.25-13.55.57:504][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.25-13.55.57:587][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.25-13.55.57:587][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.25-13.55.57:620][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.25-13.55.57:703][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.25-13.55.57:730][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.25-13.55.57:774][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.25-13.55.57:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.25-13.55.57:860][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.25-13.55.57:904][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.25-13.55.57:904][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.25-13.55.58:308][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.25-13.55.58:409][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.25-13.55.58:410][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.25-13.55.58:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.25-13.55.58:410][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.25-13.55.58:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.25-13.55.58:410][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.25-13.55.58:425][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.25-13.55.58:437][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.25-13.55.58:447][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.25-13.55.58:447][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.25-13.55.58:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.25-13.55.58:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.25-13.55.58:696][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.09.25-13.55.58:796][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.25-13.55.58:940][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.25-13.55.59:196][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.25-13.55.59:228][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.25-13.55.59:228][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.25-13.55.59:228][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.25-13.55.59:228][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.25-13.55.59:228][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.25-13.55.59:576][  0]LogNetVersion: Proj1 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2931502901)
+[2017.09.25-13.55.59:769][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034305 seconds
+[2017.09.25-13.55.59:775][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.25-13.55.59:775][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.25-13.55.59:775][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.25-13.55.59:826][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.25-13.56.02:084][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.25-13.56.02:121][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.25-13.56.02:659][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.25-13.56.03:010][  0]SourceControl: Source control is disabled
+[2017.09.25-13.56.03:797][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.25-13.56.04:006][  0]LogOcInput: OculusInput pre-init called
+[2017.09.25-13.56.04:301][  0]LogEngine: Initializing Engine...
+[2017.09.25-13.56.04:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.25-13.56.04:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.25-13.56.04:533][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.25-13.56.04:650][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.25-13.56.04:656][  0]LogInit: XAudio2 using 'ASUS VS247-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-13.56.04:678][  0]LogInit: FAudioDevice initialized.
+[2017.09.25-13.56.04:765][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/jimmy.hansson/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.25-13.56.04:779][  0]LogInit: Texture streaming: Enabled
+[2017.09.25-13.56.04:875][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.25-13.56.05:062][  0]LogInit: Transaction tracking system initialized
+[2017.09.25-13.56.05:323][  0]BlueprintLog: New page: Editor Load
+[2017.09.25-13.56.06:117][  0]LocalizationService: Localization service is disabled
+[2017.09.25-13.56.06:735][  0]LogConsoleResponse: Display: 
+[2017.09.25-13.56.06:916][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.25-13.56.06:916][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.25-13.56.06:916][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.25-13.56.07:184][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/' took 0.01s
+[2017.09.25-13.56.07:814][  0]Cmd: MAP LOAD FILE="D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.25-13.56.07:814][  0]LightingResults: New page: Lighting Build
+[2017.09.25-13.56.07:849][  0]MapCheck: New page: Map Check
+[2017.09.25-13.56.07:849][  0]LightingResults: New page: Lighting Build
+[2017.09.25-13.56.08:230][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.09.25-13.56.08:242][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.25-13.56.08:268][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.25-13.56.08:314][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.924ms to complete.
+[2017.09.25-13.56.08:314][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.501
+[2017.09.25-13.56.08:379][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-13.56.08:458][  0]LogCollectionManager: Loaded 0 collections in 0.001474 seconds
+[2017.09.25-13.56.08:529][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Saved/Collections/' took 0.01s
+[2017.09.25-13.56.08:530][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/Developers/jimmyhansson/Collections/' took 0.01s
+[2017.09.25-13.56.08:530][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/Collections/' took 0.01s
+[2017.09.25-13.56.08:530][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.25-13.56.08:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2386 classes and 500 folders.
+[2017.09.25-13.56.08:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.25-13.56.08:631][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.25-13.56.08:671][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.25-13.56.09:758][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.25-13.56.09:762][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.25-13.56.09:766][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.25-13.56.09:864][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Proj1
+[2017.09.25-13.56.09:864][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.25-13.56.09:864][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.09.25-13.56.09:864][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.25-13.56.09:864][  0]LogTemp: BranchPath = FG17AOR022/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = FG17AOR022/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.09.25-13.56.09:864][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jimmy.hansson\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.25-13.56.09:864][  0]LogRenderer: Reallocating scene render targets to support 1368x564 Format 10 NumSamples 1 (Frame:1).
+[2017.09.25-13.56.10:027][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.25-13.56.10:027][  0]LogLoad: (Engine Initialization) Total time: 16.27 seconds
+[2017.09.25-13.56.10:027][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.25-13.56.10:027][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.25-13.56.10:065][  0]SourceControl: On branch master
+[2017.09.25-13.56.10:065][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.09.25-13.56.10:065][  0]SourceControl: Changes not staged for commit:
+[2017.09.25-13.56.10:065][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.09.25-13.56.10:065][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.25-13.56.10:065][  0]SourceControl: 	modified:   Proj1/Intermediate/CachedAssetRegistry.bin
+[2017.09.25-13.56.10:065][  0]SourceControl: 	modified:   Proj1/Saved/AutoScreenshot.png
+[2017.09.25-13.56.10:065][  0]SourceControl: 	modified:   Proj1/Saved/Autosaves/PackageRestoreData.json
+[2017.09.25-13.56.10:065][  0]SourceControl: 	modified:   Proj1/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.25-13.56.10:065][  0]SourceControl: 	modified:   Proj1/Saved/Logs/Proj1.log
+[2017.09.25-13.56.10:065][  0]SourceControl: Untracked files:
+[2017.09.25-13.56.10:065][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.25-13.56.10:065][  0]SourceControl: 	Proj1/Saved/Config/CrashReportClient/UE4CC-Windows-667848904E0A7917FAABF991FDA5855D/
+[2017.09.25-13.56.10:065][  0]SourceControl: 	Proj1/Saved/Config/Windows/SourceControlSettings.ini
+[2017.09.25-13.56.10:065][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.25-13.56.10:065][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.25-13.56.10:098][  0]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-13.56.10:110][  1]LogAssetRegistry: Asset discovery search completed in 11.4370 seconds
+[2017.09.25-13.56.10:112][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000027 seconds (found 0 objects)
+[2017.09.25-13.56.10:112][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2017.09.25-13.56.19:849][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.25-13.56.20:424][927]Cmd: DELETE
+[2017.09.25-13.56.20:424][927]Cmd: ACTOR DELETE
+[2017.09.25-13.56.20:426][927]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.25-13.56.20:436][927]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.09.25-13.56.22:163][126]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-13.56.22:302][126]LogSavePackage: Save=59.37ms
+[2017.09.25-13.56.22:302][126]LogSavePackage: Moving 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Saved/ThirdPersonExampleMap3CE4244F453C78DCC5DC4FB4B8F221D1.tmp' to 'D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.09.25-13.56.22:304][126]LogSavePackage: Display: Finished SavePackage D:/Unreal/Projekt/DodgeBall_on_ice/Proj1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.09.25-13.56.22:345][126]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.171
